@@ -1,0 +1,28 @@
+name: mid
+description: A new Flutter project.
+
+publish_to: 'none' # Prevents accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Ensure you're using the correct SDK version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2  # Provider package for state management
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/book1.jpg
+    - assets/book2.jpg
+    - assets/book3.jpg
+    - assets/book3.jpg
+    - assets/profile.jpeg
