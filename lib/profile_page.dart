@@ -4,10 +4,10 @@ import 'cart_provider.dart';
 import 'cart_page.dart';
 
 class ProfilePage extends StatelessWidget {
-  final String _name = "John Doe";
-  final String _email = "johndoe@example.com";
-  final String _shippingAddress = "123 Street Name, Apartment 4B";
-  final String _city = "New York";
+  final String _name = "Chandima Teenuhansa Jayathilaka";
+  final String _email = "teenuhansa7789@gmail.com";
+  final String _shippingAddress = "C 187/4 Welangalla Gatahaththe";
+  final String _city = "Avissawella";
   final String _postalCode = "10001";
 
   const ProfilePage({super.key});
@@ -21,7 +21,7 @@ class ProfilePage extends StatelessWidget {
         title: const Text("Profile"),
         backgroundColor: Colors.blueGrey,
       ),
-      backgroundColor: const Color(0xFFF9F1E6), // Background color
+      backgroundColor: const Color.fromARGB(255, 241, 241, 241), // Background color
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
@@ -70,7 +70,7 @@ class ProfilePage extends StatelessWidget {
                       );
                     },
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.orange,
+                      backgroundColor: const Color.fromARGB(255, 97, 84, 218),
                       padding: const EdgeInsets.symmetric(vertical: 12),
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
                     ),

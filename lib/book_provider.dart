@@ -7,21 +7,21 @@ class BookProvider with ChangeNotifier {
       "author": "Robert T. Kiyosaki",
       "price": 1250,
       "image": "assets/book1.jpg",
-      "description": "A book about financial literacy and wealth building."
+      "description": "Rich Dad Poor Dad is Robert's story of growing up with two dads — his real father and the father of his best friend, his rich dad — and the ways in which both men shaped his thoughts about money and investing."
     },
     {
       "title": "The Alchemist",
       "author": "Paulo Coelho",
       "price": 1000,
       "image": "assets/book2.jpg",
-      "description": "A journey of self-discovery and chasing dreams."
+      "description": "Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His quest will lead him to riches far different—and far more satisfying—than he ever imagined."
     },
     {
       "title": "Men Are from Mars",
       "author": "John Gray",
       "price": 1500,
       "image": "assets/book3.jpg",
-      "description": "A guide to understanding communication in relationships."
+      "description": "The book states that most common relationship problems between men and women are a result of fundamental psychological differences between the sexes"
     },
   ];
 
